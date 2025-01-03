@@ -146,12 +146,17 @@ class AutomationRules::ConditionsFilterService < FilterService
     query_operator = query_hash['query_operator']
     filter_operator_value = filter_operation(query_hash, current_index)
 
+
     case current_filter['attribute_type']
     when 'additional_attributes'
       " #{table_name}.additional_attributes ->> '#{attribute_key}' #{filter_operator_value} #{query_operator} "
     when 'standard'
       if attribute_key == 'labels'
-        " tags.id #{filter_operator_value} #{query_operator} "
+        if query_hash['filter_operator'] == "not_equal_to"
+          "#{table_name}.cached_label_list NOT LIKE '%#{query_hash.values.first.first}%' #{query_operator}"
+        elsif query_hash['filter_operator'] == "equal_to"
+          "#{table_name}.cached_label_list LIKE '%#{query_hash.values.first.first}%' #{query_operator}"
+        end
       else
         " #{table_name}.#{attribute_key} #{filter_operator_value} #{query_operator} "
       end

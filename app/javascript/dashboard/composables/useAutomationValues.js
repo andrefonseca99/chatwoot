@@ -79,6 +79,7 @@ export default function useAutomationValues() {
       languages,
       countries,
       type,
+      labels: labels.value,
     });
   };
 

@@ -9,6 +9,13 @@ export const AUTOMATIONS = {
   message_created: {
     conditions: [
       {
+        key: 'labels',
+        name: 'Label',
+        attributeI18nKey: 'LABEL',
+        inputType: 'search_select',
+        filterOperators: OPERATOR_TYPES_1,
+      },
+      {
         key: 'message_type',
         name: 'Message Type',
         attributeI18nKey: 'MESSAGE_TYPE',
