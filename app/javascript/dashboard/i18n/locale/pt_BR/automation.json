@@ -1,8 +1,8 @@
 {
   "AUTOMATION": {
     "HEADER": "Automação",
-    "DESCRIPTION": "Automation can replace and streamline existing processes that require manual effort, such as adding labels and assigning conversations to the most suitable agent. This allows the team to focus on their strengths while reducing time spent on routine tasks.",
-    "LEARN_MORE": "Learn more about automation",
+    "DESCRIPTION": "A automação pode substituir e agilizar processos existentes que exigem esforço manual, como adicionar etiquetas e atribuir conversas ao agente mais adequado. Isso permite que a equipe se concentre em seus pontos fortes, enquanto reduz o tempo gasto em tarefas rotineiras.",
+    "LEARN_MORE": "Saiba mais sobre automação",
     "HEADER_BTN_TXT": "Adicionar regra de automação",
     "LOADING": "Buscando regras de automação",
     "ADD": {
@@ -40,12 +40,12 @@
       }
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "Nome",
-        "Descrição",
-        "Ativo",
-        "Criado em"
-      ],
+      "TABLE_HEADER": {
+        "NAME": "Nome",
+        "DESCRIPTION": "Descrição",
+        "ACTIVE": "Ativo",
+        "CREATED_ON": "Criado em"
+      },
       "404": "Nenhuma regra de automação encontrada"
     },
     "DELETE": {
@@ -56,7 +56,7 @@
         "TITLE": "Confirmar exclusão",
         "MESSAGE": "Você tem certeza que deseja excluir? ",
         "YES": "Sim, excluir ",
-        "NO": "Não, Mantenha "
+        "NO": "Não, manter "
       },
       "API": {
         "SUCCESS_MESSAGE": "Regra de automação excluída com sucesso",
@@ -76,7 +76,7 @@
       "TOOLTIP": "Duplicar",
       "API": {
         "SUCCESS_MESSAGE": "Automação duplicada com sucesso",
-        "ERROR_MESSAGE": "Não foi possível duplicar regra de automação, por favor, tente novamente mais tarde"
+        "ERROR_MESSAGE": "Não foi possível duplicar a regra de automação, por favor, tente novamente mais tarde"
       }
     },
     "FORM": {
@@ -95,8 +95,8 @@
       "DELETE_MESSAGE": "Você precisa ter pelo menos uma ação para salvar",
       "TEAM_MESSAGE_INPUT_PLACEHOLDER": "Escreva sua mensagem aqui",
       "TEAM_DROPDOWN_PLACEHOLDER": "Selecione o time",
-      "EMAIL_INPUT_PLACEHOLDER": "Enter email",
-      "URL_INPUT_PLACEHOLDER": "Enter URL"
+      "EMAIL_INPUT_PLACEHOLDER": "Insira o email",
+      "URL_INPUT_PLACEHOLDER": "Insira a URL"
     },
     "TOGGLE": {
       "ACTIVATION_TITLE": "Ativar regra de automação",
@@ -115,16 +115,16 @@
       "LABEL_IDLE": "Enviar Anexo",
       "LABEL_UPLOADING": "Enviando...",
       "LABEL_UPLOADED": "Upload feito com sucesso",
-      "LABEL_UPLOAD_FAILED": "Faha no envio"
+      "LABEL_UPLOAD_FAILED": "Falha no envio"
     },
     "ERRORS": {
-      "ATTRIBUTE_KEY_REQUIRED": "Attribute key is required",
-      "FILTER_OPERATOR_REQUIRED": "Filter operator is required",
+      "ATTRIBUTE_KEY_REQUIRED": "Chave de atributo é obrigatória",
+      "FILTER_OPERATOR_REQUIRED": "Operador de filtro é obrigatório",
       "VALUE_REQUIRED": "Valor obrigatório",
-      "VALUE_MUST_BE_BETWEEN_1_AND_998": "Value must be between 1 and 998",
-      "ACTION_PARAMETERS_REQUIRED": "Action parameters are required",
-      "ATLEAST_ONE_CONDITION_REQUIRED": "At least one condition is required",
-      "ATLEAST_ONE_ACTION_REQUIRED": "At least one action is required"
+      "VALUE_MUST_BE_BETWEEN_1_AND_998": "O valor deve estar entre 1 e 998",
+      "ACTION_PARAMETERS_REQUIRED": "Os parâmetros da ação são obrigatórios",
+      "ATLEAST_ONE_CONDITION_REQUIRED": "Pelo menos uma condição é obrigatória",
+      "ATLEAST_ONE_ACTION_REQUIRED": "Pelo menos uma ação é obrigatória"
     }
   }
 }
