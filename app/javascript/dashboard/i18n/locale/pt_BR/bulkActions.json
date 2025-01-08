@@ -5,11 +5,11 @@
     "ASSIGN_CONFIRMATION_LABEL": "Você tem certeza que quer atribuir {conversationCount} {conversationLabel} para",
     "UNASSIGN_CONFIRMATION_LABEL": "Você tem certeza que quer remover a atribuição de {conversationCount} {conversationLabel}?",
     "GO_BACK_LABEL": "Voltar atrás",
-    "ASSIGN_LABEL": "Atribua",
+    "ASSIGN_LABEL": "Atribuir",
     "YES": "Sim",
     "SEARCH_INPUT_PLACEHOLDER": "Pesquisar",
-    "ASSIGN_AGENT_TOOLTIP": "Atribuir Agente",
-    "ASSIGN_TEAM_TOOLTIP": "Atribuir equipe",
+    "ASSIGN_AGENT_TOOLTIP": "Atribuir agente",
+    "ASSIGN_TEAM_TOOLTIP": "Atribuir time",
     "ASSIGN_SUCCESFUL": "Conversas atribuídas com sucesso.",
     "ASSIGN_FAILED": "Falha ao atribuir conversas. Por favor, tente novamente.",
     "RESOLVE_SUCCESFUL": "Conversas resolvidas com sucesso.",
@@ -23,7 +23,7 @@
       "UPDATE_FAILED": "Falha ao atualizar conversas. Por favor, tente novamente."
     },
     "LABELS": {
-      "ASSIGN_LABELS": "Atribuir rótulo",
+      "ASSIGN_LABELS": "Atribuir rótulos",
       "NO_LABELS_FOUND": "Não há rótulos encontrados para",
       "ASSIGN_SELECTED_LABELS": "Atribuir rótulos selecionados",
       "ASSIGN_SUCCESFUL": "Rótulos atribuídos com sucesso.",
@@ -32,10 +32,10 @@
     "TEAMS": {
       "TEAM_SELECT_LABEL": "Selecionar time",
       "NONE": "Nenhuma",
-      "NO_TEAMS_AVAILABLE": "Ainda não há equipes adicionadas a esta conta ainda.",
-      "ASSIGN_SELECTED_TEAMS": "Atribuir equipe selecionada.",
+      "NO_TEAMS_AVAILABLE": "Ainda não há times adicionados a esta conta.",
+      "ASSIGN_SELECTED_TEAMS": "Atribuir time selecionado",
       "ASSIGN_SUCCESFUL": "Times atribuídos com sucesso.",
-      "ASSIGN_FAILED": "Falha ao atribuir equipe. Por favor, tente novamente."
+      "ASSIGN_FAILED": "Falha ao atribuir time. Por favor, tente novamente."
     }
   }
 }

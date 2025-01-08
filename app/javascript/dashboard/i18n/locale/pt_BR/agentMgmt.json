@@ -11,11 +11,11 @@
     },
     "LIST": {
       "404": "Não existem agentes associados a esta conta",
-      "TITLE": "Gerenciar agentes da sua equipe",
+      "TITLE": "Gerenciar agentes do seu time",
       "DESC": "Você pode adicionar e/ou remover agentes de um time.",
       "NAME": "Nome",
       "EMAIL": "E-mail",
-      "STATUS": "SItuação",
+      "STATUS": "Situação",
       "ACTIONS": "Ações",
       "VERIFIED": "Verificado",
       "VERIFICATION_PENDING": "Verificação Pendente",
@@ -43,7 +43,7 @@
       },
       "API": {
         "SUCCESS_MESSAGE": "Agente adicionado com sucesso",
-        "EXIST_MESSAGE": "O E-mail do informado já está uso, por favor tente outro endereço de e-mail",
+        "EXIST_MESSAGE": "O E-mail informado já está em uso, por favor tente outro endereço de e-mail",
         "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor tente novamente mais tarde"
       }
     },
@@ -73,7 +73,7 @@
           "ERROR": "É necessário o tipo de agente"
         },
         "EMAIL": {
-          "LABEL": "Endereço de email",
+          "LABEL": "Endereço de e-mail",
           "PLACEHOLDER": "Por favor, insira um endereço de e-mail do agente"
         },
         "AGENT_AVAILABILITY": {

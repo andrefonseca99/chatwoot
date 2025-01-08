@@ -1,37 +1,37 @@
 {
   "INTEGRATION_SETTINGS": {
     "HEADER": "Integrações",
-    "DESCRIPTION": "Chatwoot se integra com várias ferramentas e serviços para melhorar a eficiência da sua equipe. Explore a lista abaixo para configurar seus aplicativos favoritos.",
-    "LEARN_MORE": "Aprenda mais sobre integrações",
-    "LOADING": "Obtendo integrações",
+    "DESCRIPTION": "O Chatwoot integra-se com várias ferramentas e serviços para melhorar a eficiência da sua equipe. Explore a lista abaixo para configurar seus aplicativos favoritos.",
+    "LEARN_MORE": "Saiba mais sobre integrações",
+    "LOADING": "Buscando integrações",
     "CAPTAIN": {
-      "DISABLED": "Captain is not enabled on your account.",
+      "DISABLED": "O Captain não está habilitado na sua conta.",
       "CLICK_HERE_TO_CONFIGURE": "Clique aqui para configurar",
-      "LOADING_CONSOLE": "Loading Captain Console...",
-      "FAILED_TO_LOAD_CONSOLE": ""
+      "LOADING_CONSOLE": "Carregando o Console do Captain...",
+      "FAILED_TO_LOAD_CONSOLE": "Falha ao carregar o Console do Captain. Por favor, recarregue e tente novamente."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Eventos Inscritos",
-      "LEARN_MORE": "Learn more about webhooks",
+      "LEARN_MORE": "Saiba mais sobre webhooks",
       "FORM": {
         "CANCEL": "Cancelar",
-        "DESC": "Webhook Os eventos fornecem informações em tempo real sobre o que está acontecendo na sua conta do Chatwoot. Digite um URL válido para configurar um retorno de chamada.",
+        "DESC": "Eventos de webhook fornecem informações em tempo real sobre o que está acontecendo na sua conta do Chatwoot. Por favor, insira uma URL válida para configurar um callback.",
         "SUBSCRIPTIONS": {
           "LABEL": "Eventos",
           "EVENTS": {
-            "CONVERSATION_CREATED": "Conversa Criada",
-            "CONVERSATION_STATUS_CHANGED": "Status de conversa alterado",
-            "CONVERSATION_UPDATED": "Conversa Atualizada",
-            "MESSAGE_CREATED": "Mensagem criada",
-            "MESSAGE_UPDATED": "Mensagem atualizada",
-            "WEBWIDGET_TRIGGERED": "Widget de chat aberto pelo usuário",
-            "CONTACT_CREATED": "Contato criado",
-            "CONTACT_UPDATED": "Contato atualizado"
+            "CONVERSATION_CREATED": "Conversação Criada",
+            "CONVERSATION_STATUS_CHANGED": "Status da Conversação Alterado",
+            "CONVERSATION_UPDATED": "Conversação Atualizada",
+            "MESSAGE_CREATED": "Mensagem Criada",
+            "MESSAGE_UPDATED": "Mensagem Atualizada",
+            "WEBWIDGET_TRIGGERED": "Widget de chat ao vivo aberto pelo usuário",
+            "CONTACT_CREATED": "Contato Criado",
+            "CONTACT_UPDATED": "Contato Atualizado"
           }
         },
         "END_POINT": {
           "LABEL": "URL do Webhook",
-          "PLACEHOLDER": "Exemplo: https://example/api/webhook",
+          "PLACEHOLDER": "Exemplo: {webhookExampleURL}",
           "ERROR": "Por favor, insira uma URL válida"
         },
         "EDIT_SUBMIT": "Atualizar webhook",
@@ -39,24 +39,24 @@
       },
       "TITLE": "Webhook",
       "CONFIGURE": "Configurar",
-      "HEADER": "Configurações do Webhook",
-      "HEADER_BTN_TXT": "Adicionar novo Webhook",
-      "LOADING": "Buscando Webhooks anexados",
-      "SEARCH_404": "Não existem itens correspondentes a esta consulta",
-      "SIDEBAR_TXT": "<p><b>Webhooks</b> </p> <p>Webhooks são retornos de chamada HTTP que podem ser definidos para todas as contas. Eles são acionados por eventos como a criação de mensagens no Chatwoot. Você pode criar mais de um webhook para esta conta. <br /> <br /> Para criar um <b> webhook </b>, clique no botão <b> Adicionar novo webhook </b>. Você também pode remover qualquer webhook existente clicando no botão Excluir.</p>",
+      "HEADER": "Configurações do webhook",
+      "HEADER_BTN_TXT": "Adicionar novo webhook",
+      "LOADING": "Buscando webhooks anexados",
+      "SEARCH_404": "Não há itens correspondentes a esta consulta",
+      "SIDEBAR_TXT": "<p><b>Webhooks</b> </p> <p>Webhooks são callbacks HTTP que podem ser definidos para cada conta. Eles são acionados por eventos como a criação de mensagens no Chatwoot. Você pode criar mais de um webhook para esta conta. <br /><br /> Para criar um <b>webhook</b>, clique no botão <b>Adicionar novo webhook</b>. Você também pode remover qualquer webhook existente clicando no botão Deletar.</p>",
       "LIST": {
         "404": "Não há webhooks configurados para esta conta.",
         "TITLE": "Gerenciar webhooks",
-        "TABLE_HEADER": [
-          "Webhook URL (endpoint)",
-          "Ações"
-        ]
+        "TABLE_HEADER": {
+          "WEBHOOK_ENDPOINT": "Endpoint do webhook",
+          "ACTIONS": "Ações"
+        }
       },
       "EDIT": {
-        "BUTTON_TEXT": "Alterar",
+        "BUTTON_TEXT": "Editar",
         "TITLE": "Editar webhook",
         "API": {
-          "SUCCESS_MESSAGE": "Configuração de Webhook atualizada com sucesso",
+          "SUCCESS_MESSAGE": "Configuração do webhook atualizada com sucesso",
           "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor tente novamente mais tarde"
         }
       },
@@ -64,93 +64,93 @@
         "CANCEL": "Cancelar",
         "TITLE": "Adicionar novo webhook",
         "API": {
-          "SUCCESS_MESSAGE": "Configuração de Webhook adicionada com sucesso",
+          "SUCCESS_MESSAGE": "Configuração do webhook adicionada com sucesso",
           "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor tente novamente mais tarde"
         }
       },
       "DELETE": {
-        "BUTTON_TEXT": "Excluir",
+        "BUTTON_TEXT": "Deletar",
         "API": {
-          "SUCCESS_MESSAGE": "Webhook excluído com sucesso",
+          "SUCCESS_MESSAGE": "Webhook deletado com sucesso",
           "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor tente novamente mais tarde"
         },
         "CONFIRM": {
-          "TITLE": "Confirmar exclusão",
-          "MESSAGE": "Tem certeza que deseja excluir o webhook? ({webhookURL})",
-          "YES": "Sim, excluir ",
-          "NO": "Não, mantenha"
+          "TITLE": "Confirmar Deleção",
+          "MESSAGE": "Tem certeza de que deseja deletar o webhook? ({webhookURL})",
+          "YES": "Sim, Deletar",
+          "NO": "Não, Manter"
         }
       }
     },
     "SLACK": {
-      "DELETE": "Excluir",
+      "DELETE": "Deletar",
       "DELETE_CONFIRMATION": {
-        "TITLE": "Excluir integração",
-        "MESSAGE": "Tem certeza que deseja excluir a integração? Isso resultará na perda de acesso a conversas no seu espaço de trabalho Slack."
+        "TITLE": "Deletar a integração",
+        "MESSAGE": "Tem certeza de que deseja deletar a integração? Isso resultará na perda de acesso às conversações no seu espaço de trabalho Slack."
       },
       "HELP_TEXT": {
-        "TITLE": "Usando a integração com Slack",
-        "BODY": "<br/><p>Chatwoot irá agora sincronizar todas as conversas recebidas no canal de <b><i>conversas com clientes</i></b> dentro de seu local de trabalho de slack.</p><p>A resposta para uma conversa em <b><i>conversas ao cliente</i></b> canal de slack irá criar uma resposta para o cliente através do chatwoot.</p><p>Inicie as respostas com <b><i>nota:</i></b> para criar notas privadas em vez de respostas.</p><p>Se o remetente do slack tiver um perfil de agente no chatwoot sob o mesmo e-mail, as respostas serão associadas de acordo.</p><p>Quando o respondente não tiver um perfil de agente associado, as respostas serão dadas a partir do perfil do bot.</p>",
-        "SELECTED": "selecionar"
+        "TITLE": "Como usar a integração com o Slack?",
+        "BODY": "Com esta integração, todas as suas conversações recebidas serão sincronizadas com o canal ***{selectedChannelName}*** no seu espaço de trabalho Slack. Você pode gerenciar todas as suas conversações com clientes diretamente dentro do canal e nunca perder uma mensagem.\n\nAqui estão os principais recursos da integração:\n\n**Responder às conversações dentro do Slack:** Para responder a uma conversação no canal ***{selectedChannelName}*** do Slack, basta digitar sua mensagem e enviá-la como uma thread. Isso criará uma resposta para o cliente através do Chatwoot. Simples assim!\n\n **Criar notas privadas:** Se você quiser criar notas privadas em vez de respostas, comece sua mensagem com ***`note:`***. Isso garante que sua mensagem seja mantida privada e não será visível para o cliente.\n\n**Associar um perfil de agente:** Se a pessoa que respondeu no Slack tiver um perfil de agente no Chatwoot com o mesmo e-mail, as respostas serão associadas automaticamente a esse perfil de agente. Isso significa que você pode facilmente rastrear quem disse o que e quando. Por outro lado, quando o respondente não tiver um perfil de agente associado, as respostas aparecerão com o perfil do bot para o cliente.",
+        "SELECTED": "selecionado"
       },
       "SELECT_CHANNEL": {
-        "OPTION_LABEL": "Selecione um canal",
+        "OPTION_LABEL": "Selecionar um canal",
         "UPDATE": "Atualizar",
         "BUTTON_TEXT": "Conectar canal",
-        "DESCRIPTION": "Seu espaço de trabalho Slack agora está ligado com o Chatwoot. No entanto, a integração está inativa no momento. Para ativar a integração e conectar um canal ao Chatwoot, por favor, clique no botão abaixo.\n\n**Nota:** Se você está tentando conectar-se a um canal privado, adicione o aplicativo Chatwoot no canal do Slack antes de prosseguir com esta etapa.",
+        "DESCRIPTION": "Seu espaço de trabalho Slack está agora vinculado ao Chatwoot. No entanto, a integração está atualmente inativa. Para ativar a integração e conectar um canal ao Chatwoot, clique no botão abaixo.\n\n**Nota:** Se você estiver tentando conectar um canal privado, adicione o aplicativo Chatwoot ao canal Slack antes de prosseguir com esta etapa.",
         "ATTENTION_REQUIRED": "Atenção necessária",
-        "EXPIRED": "Sua integração com o Slack expirou. Para continuar recebendo mensagens no Slack, exclua a integração e conecte seu espaço de trabalho novamente."
+        "EXPIRED": "Sua integração com o Slack expirou. Para continuar recebendo mensagens no Slack, por favor, exclua a integração e conecte seu espaço de trabalho novamente."
       },
-      "UPDATE_ERROR": "Ocorreu um erro ao atualizar a integração, por favor, tente novamente",
+      "UPDATE_ERROR": "Houve um erro ao atualizar a integração, por favor tente novamente",
       "UPDATE_SUCCESS": "O canal foi conectado com sucesso",
-      "FAILED_TO_FETCH_CHANNELS": "Ocorreu um erro ao obter os canais do Slack, por favor, tente novamente"
+      "FAILED_TO_FETCH_CHANNELS": "Houve um erro ao buscar os canais do Slack, por favor tente novamente"
     },
     "DYTE": {
       "CLICK_HERE_TO_JOIN": "Clique aqui para entrar",
       "LEAVE_THE_ROOM": "Sair da sala",
       "START_VIDEO_CALL_HELP_TEXT": "Iniciar uma nova chamada de vídeo com o cliente",
       "JOIN_ERROR": "Houve um erro ao entrar na chamada, por favor tente novamente",
-      "CREATE_ERROR": "Houve um erro ao criar o link da reunião, por favor tente novamente"
+      "CREATE_ERROR": "Houve um erro ao criar o link de reunião, por favor tente novamente"
     },
     "OPEN_AI": {
-      "AI_ASSIST": "Assistente Open AI",
+      "AI_ASSIST": "Assistente de IA",
       "WITH_AI": " {option} com IA ",
       "OPTIONS": {
         "REPLY_SUGGESTION": "Sugestão de resposta",
         "SUMMARIZE": "Resumir",
-        "REPHRASE": "Melhorar Escrita",
-        "FIX_SPELLING_GRAMMAR": "Corrigir Ortografia e Gramática",
-        "SHORTEN": "Encurtar",
+        "REPHRASE": "Melhorar redação",
+        "FIX_SPELLING_GRAMMAR": "Corrigir ortografia e gramática",
+        "SHORTEN": "Resumir",
         "EXPAND": "Expandir",
-        "MAKE_FRIENDLY": "Alterar o tom de mensagem para amigável",
+        "MAKE_FRIENDLY": "Mudar tom da mensagem para amigável",
         "MAKE_FORMAL": "Usar tom formal",
         "SIMPLIFY": "Simplificar"
       },
       "ASSISTANCE_MODAL": {
-        "DRAFT_TITLE": "Conteúdo do rascunho",
+        "DRAFT_TITLE": "Rascunho do conteúdo",
         "GENERATED_TITLE": "Conteúdo gerado",
-        "AI_WRITING": "A IA está escrevendo",
+        "AI_WRITING": "IA escrevendo",
         "BUTTONS": {
-          "APPLY": "Use esta sugestão",
+          "APPLY": "Usar esta sugestão",
           "CANCEL": "Cancelar"
         }
       },
       "CTA_MODAL": {
-        "TITLE": "Integração com o OpenAI",
-        "DESC": "Traga funcionalidades avançadas de IA para o seu painel com os modelos GPT da OpenAI. Para começar, insira a chave API da sua conta OpenAI.",
-        "KEY_PLACEHOLDER": "Insira sua chave de API da OpenAI",
+        "TITLE": "Integrar com OpenAI",
+        "DESC": "Traga recursos avançados de IA para o seu painel com os modelos GPT da OpenAI. Para começar, insira a chave da API da sua conta OpenAI.",
+        "KEY_PLACEHOLDER": "Insira sua chave de API OpenAI",
         "BUTTONS": {
           "NEED_HELP": "Precisa de ajuda?",
-          "DISMISS": "Recusar",
-          "FINISH": "Concluir Configuração"
+          "DISMISS": "Fechar",
+          "FINISH": "Finalizar Configuração"
         },
-        "DISMISS_MESSAGE": "Você pode configurar a integração com o OpenAI mais tarde.",
+        "DISMISS_MESSAGE": "Você pode configurar a integração com o OpenAI mais tarde, quando quiser.",
         "SUCCESS_MESSAGE": "Integração com o OpenAI configurada com sucesso"
       },
-      "TITLE": "Melhore com IA",
+      "TITLE": "Melhorar com IA",
       "SUMMARY_TITLE": "Resumo com IA",
-      "REPLY_TITLE": "Responder sugestão com IA",
-      "SUBTITLE": "Uma resposta melhor será gerada usando AI, com base no seu rascunho atual.",
+      "REPLY_TITLE": "Sugestão de resposta com IA",
+      "SUBTITLE": "Uma resposta melhorada será gerada usando IA, com base no seu rascunho atual.",
       "TONE": {
         "TITLE": "Tom",
         "OPTIONS": {
@@ -163,144 +163,150 @@
         "GENERATING": "Gerando...",
         "CANCEL": "Cancelar"
       },
-      "GENERATE_ERROR": "Ocorreu um erro ao processar o conteúdo, por favor, tente novamente"
+      "GENERATE_ERROR": "Houve um erro ao processar o conteúdo, verifique sua chave de API OpenAI e tente novamente"
     },
     "DELETE": {
-      "BUTTON_TEXT": "Excluir",
+      "BUTTON_TEXT": "Deletar",
       "API": {
-        "SUCCESS_MESSAGE": "Integração excluída com sucesso"
+        "SUCCESS_MESSAGE": "Integração deletada com sucesso"
       }
     },
     "CONNECT": {
       "BUTTON_TEXT": "Conectar"
     },
     "DASHBOARD_APPS": {
-      "TITLE": "Apps da Dashboard",
-      "HEADER_BTN_TXT": "Adicionar um novo app da dashboard",
-      "SIDEBAR_TXT": "<p><b>Dashboard Apps</b></p><p>Dashboard Apps permite que as organizações incorporem um aplicativo dentro da dashboard do Chatwoot para fornecer o contexto para agentes de suporte ao cliente. Este recurso permite-lhe criar uma aplicação independente e incorporá-la dentro da dashboard para fornecer informações do usuário, seus pedidos ou seu histórico de pagamentos anteriores.</p><p>Quando você incorpora seu aplicativo usando a dashboard do Chatwoot, sua aplicação irá obter o contexto da conversa e entrar em contato como um evento de janela. Implementar um ouvinte para o evento de mensagem em sua página receber o contexto.</p><p>Para adicionar um novo aplicativo da dashboard, clique no botão 'Adicionar um novo aplicativo da dashboard'.</p>",
-      "DESCRIPTION": "Aplicativos da dashboard permitem que organizações incorporem um aplicativo dentro do painel para fornecer o contexto para agentes de suporte ao cliente. Este recurso permite que você crie uma aplicação independente e incorpore para fornecer informações de usuário, seus pedidos ou seu histórico de pagamentos anteriores.",
-      "LEARN_MORE": "Learn more about Dashboard Apps",
+      "TITLE": "Aplicativos do Dashboard",
+      "HEADER_BTN_TXT": "Adicionar um novo aplicativo ao dashboard",
+      "SIDEBAR_TXT": "<p><b>Aplicativos do Dashboard</b></p><p>Aplicativos do dashboard permitem que as organizações integrem um aplicativo dentro do dashboard do Chatwoot para fornecer contexto para os agentes de suporte ao cliente. Essa funcionalidade permite que você crie um aplicativo de forma independente e o integre ao dashboard para fornecer informações sobre o usuário, seus pedidos ou seu histórico de pagamentos anteriores.</p><p>Ao integrar seu aplicativo usando o dashboard no Chatwoot, seu aplicativo receberá o contexto da conversa e do contato como um evento de janela. Implemente um listener para o evento de mensagem em sua página para receber o contexto.</p><p>Para adicionar um novo aplicativo ao dashboard, clique no botão 'Adicionar um novo aplicativo ao dashboard'.</p>",
+      "DESCRIPTION": "Aplicativos do dashboard permitem que as organizações integrem um aplicativo dentro do dashboard para fornecer contexto aos agentes de suporte ao cliente. Essa funcionalidade permite que você crie um aplicativo de forma independente e o integre para fornecer informações sobre o usuário, seus pedidos ou seu histórico de pagamentos anteriores.",
+      "LEARN_MORE": "Saiba mais sobre Aplicativos do Dashboard",
       "LIST": {
-        "404": "Ainda não há aplicativos da dashboard nesta conta",
-        "LOADING": "Buscando aplicativos da dashboard...",
-        "TABLE_HEADER": [
-          "Nome",
-          "Endpoint"
-        ],
+        "404": "Ainda não há aplicativos do dashboard configurados nesta conta",
+        "LOADING": "Carregando aplicativos do dashboard...",
+        "TABLE_HEADER": { "NAME": "Nome", "ENDPOINT": "Endpoint" },
         "EDIT_TOOLTIP": "Editar aplicativo",
         "DELETE_TOOLTIP": "Excluir aplicativo"
       },
       "FORM": {
         "TITLE_LABEL": "Nome",
-        "TITLE_PLACEHOLDER": "Digite um nome para o app da dashboard",
-        "TITLE_ERROR": "É necessário um nome para o aplicativo da dashboard",
+        "TITLE_PLACEHOLDER": "Digite um nome para o seu aplicativo do dashboard",
+        "TITLE_ERROR": "É necessário um nome para o aplicativo do dashboard",
         "URL_LABEL": "Endpoint",
         "URL_PLACEHOLDER": "Digite a URL do endpoint onde seu aplicativo está hospedado",
-        "URL_ERROR": "É necessário uma URL válida"
+        "URL_ERROR": "É necessária uma URL válida"
       },
       "CREATE": {
-        "HEADER": "Adicionar um novo app da dashboard",
+        "HEADER": "Adicionar um novo aplicativo ao dashboard",
         "FORM_SUBMIT": "Enviar",
         "FORM_CANCEL": "Cancelar",
-        "API_SUCCESS": "Aplicativo da dashboard configurado com sucesso",
-        "API_ERROR": "Não conseguimos criar um aplicativo. Por favor, tente novamente mais tarde"
+        "API_SUCCESS": "Aplicativo do dashboard configurado com sucesso",
+        "API_ERROR": "Não conseguimos criar o aplicativo. Tente novamente mais tarde"
       },
       "UPDATE": {
-        "HEADER": "Editar aplicativo da dashboard",
+        "HEADER": "Editar aplicativo do dashboard",
         "FORM_SUBMIT": "Atualizar",
         "FORM_CANCEL": "Cancelar",
-        "API_SUCCESS": "Aplicativo da dashboard atualizado com sucesso",
-        "API_ERROR": "Não conseguimos atualizar o aplicativo. Por favor, tente novamente mais tarde"
+        "API_SUCCESS": "Aplicativo do dashboard atualizado com sucesso",
+        "API_ERROR": "Não conseguimos atualizar o aplicativo. Tente novamente mais tarde"
       },
       "DELETE": {
-        "CONFIRM_YES": "Sim, exclua-o",
-        "CONFIRM_NO": "Não, mantenha-o",
+        "CONFIRM_YES": "Sim, excluir",
+        "CONFIRM_NO": "Não, manter",
         "TITLE": "Confirmar exclusão",
-        "MESSAGE": "Tem certeza que deseja excluir o aplicativo - {appName}?",
-        "API_SUCCESS": "Aplicativo da dashboard excluído com sucesso",
-        "API_ERROR": "Não conseguimos excluir o aplicativo. Por favor, tente novamente mais tarde"
+        "MESSAGE": "Tem certeza de que deseja excluir o aplicativo - {appName}?",
+        "API_SUCCESS": "Aplicativo do dashboard excluído com sucesso",
+        "API_ERROR": "Não conseguimos excluir o aplicativo. Tente novamente mais tarde"
       }
     },
     "LINEAR": {
-      "ADD_OR_LINK_BUTTON": "Create/Link Linear Issue",
-      "LOADING": "Fetching linear issues...",
-      "LOADING_ERROR": "There was an error fetching the linear issues, please try again",
+      "ADD_OR_LINK_BUTTON": "Criar/Linkar Issue Linear",
+      "LOADING": "Carregando issues lineares...",
+      "LOADING_ERROR": "Houve um erro ao carregar as issues lineares, por favor tente novamente",
       "CREATE": "Criar",
       "LINK": {
-        "SEARCH": "Search issues",
-        "SELECT": "Select issue",
-        "TITLE": "Link",
-        "EMPTY_LIST": "",
+        "SEARCH": "Buscar issues",
+        "SELECT": "Selecionar issue",
+        "TITLE": "Linkar",
+        "EMPTY_LIST": "Nenhuma issue linear encontrada",
         "LOADING": "Carregando",
-        "ERROR": "",
-        "LINK_SUCCESS": "Issue linked successfully",
-        "LINK_ERROR": "There was an error linking the issue, please try again",
-        "LINK_TITLE": "Conversation (#{conversationId}) with {name}"
+        "ERROR": "Houve um erro ao carregar as issues lineares, por favor tente novamente",
+        "LINK_SUCCESS": "Issue linkada com sucesso",
+        "LINK_ERROR": "Houve um erro ao linkar a issue, por favor tente novamente",
+        "LINK_TITLE": "Conversa (#{conversationId}) com {name}"
       },
       "ADD_OR_LINK": {
-        "TITLE": "Create/link linear issue",
-        "DESCRIPTION": "Crie issues no Linear a partir de conversas, ou vincule às existentes para um rastreamento integrado.",
+        "TITLE": "Criar/linkar issue linear",
+        "DESCRIPTION": "Crie issues lineares a partir de conversas ou linke as existentes para um acompanhamento contínuo.",
         "FORM": {
           "TITLE": {
             "LABEL": "Título",
-            "PLACEHOLDER": "Insira o título",
-            "REQUIRED_ERROR": "Título é obrigatório"
+            "PLACEHOLDER": "Digite o título",
+            "REQUIRED_ERROR": "O título é obrigatório"
           },
           "DESCRIPTION": {
             "LABEL": "Descrição",
-            "PLACEHOLDER": "Insira a descrição"
+            "PLACEHOLDER": "Digite a descrição"
           },
           "TEAM": {
-            "LABEL": "Times",
-            "PLACEHOLDER": "Selecionar time",
-            "SEARCH": "Pesquisar equipe",
-            "REQUIRED_ERROR": "A equipe é obrigatória"
+            "LABEL": "Time",
+            "PLACEHOLDER": "Selecione o time",
+            "SEARCH": "Buscar time",
+            "REQUIRED_ERROR": "O time é obrigatório"
           },
           "ASSIGNEE": {
             "LABEL": "Responsável",
-            "PLACEHOLDER": "Select assignee",
-            "SEARCH": "Search assignee"
+            "PLACEHOLDER": "Selecione o responsável",
+            "SEARCH": "Buscar responsável"
           },
           "PRIORITY": {
             "LABEL": "Prioridade",
-            "PLACEHOLDER": "Selecionar prioridade",
-            "SEARCH": "Search priority"
+            "PLACEHOLDER": "Selecione a prioridade",
+            "SEARCH": "Buscar prioridade"
           },
           "LABEL": {
-            "LABEL": "Nome do campo",
-            "PLACEHOLDER": "Selecione o marcador",
-            "SEARCH": "Search label"
+            "LABEL": "Etiqueta",
+            "PLACEHOLDER": "Selecione a etiqueta",
+            "SEARCH": "Buscar etiqueta"
           },
           "STATUS": {
-            "LABEL": "SItuação",
-            "PLACEHOLDER": "Select status",
-            "SEARCH": "Search status"
+            "LABEL": "Status",
+            "PLACEHOLDER": "Selecione o status",
+            "SEARCH": "Buscar status"
           },
           "PROJECT": {
-            "LABEL": "Project",
-            "PLACEHOLDER": "Select project",
-            "SEARCH": "Search project"
+            "LABEL": "Projeto",
+            "PLACEHOLDER": "Selecione o projeto",
+            "SEARCH": "Buscar projeto"
           }
         },
         "CREATE": "Criar",
         "CANCEL": "Cancelar",
-        "CREATE_SUCCESS": "Issue created successfully",
-        "CREATE_ERROR": "There was an error creating the issue, please try again",
-        "LOADING_TEAM_ERROR": "Houve um erro ao buscar as equipes, por favor, tente novamente",
-        "LOADING_TEAM_ENTITIES_ERROR": "Houve um erro ao buscar as entidades da equipe, por favor, tente novamente"
+        "CREATE_SUCCESS": "Issue criada com sucesso",
+        "CREATE_ERROR": "Houve um erro ao criar a issue, por favor tente novamente",
+        "LOADING_TEAM_ERROR": "Houve um erro ao carregar os times, por favor tente novamente",
+        "LOADING_TEAM_ENTITIES_ERROR": "Houve um erro ao carregar as entidades do time, por favor tente novamente"
       },
       "ISSUE": {
-        "STATUS": "SItuação",
+        "STATUS": "Status",
         "PRIORITY": "Prioridade",
         "ASSIGNEE": "Responsável",
-        "LABELS": "Marcadores",
+        "LABELS": "Etiquetas",
         "CREATED_AT": "Criado em {createdAt}"
       },
       "UNLINK": {
         "TITLE": "Desvincular",
         "SUCCESS": "Issue desvinculada com sucesso",
-        "ERROR": "Houve um erro ao desvincular o atributo, por favor, tente novamente"
+        "ERROR": "Houve um erro ao desvincular a issue, por favor tente novamente"
       }
+    }
+  },
+  "CAPTAIN": {
+    "NAME": "Capitão",
+    "COPILOT": {
+      "SEND_MESSAGE": "Enviar mensagem...",
+      "LOADER": "O capitão está pensando",
+      "YOU": "Você",
+      "USE": "Use isto"
     }
   }
 }
