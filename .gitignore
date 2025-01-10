@@ -31,7 +31,6 @@ master.key
 .env
 
 public/uploads
-public/packs*
 public/assets/administrate*
 public/assets/action*.js
 public/assets/activestorage*.js
@@ -78,7 +77,6 @@ test/cypress/videos/*
 .yalc
 yalc.lock
 
-/public/packs
 /public/packs-test
 /node_modules
 /yarn-error.log
