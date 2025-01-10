@@ -31,7 +31,6 @@ master.key
 .env
 
 public/uploads
-public/packs*
 public/assets/administrate*
 public/assets/action*.js
 public/assets/activestorage*.js
